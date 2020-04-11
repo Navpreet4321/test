@@ -1,0 +1,62 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+#main
+{
+	height:800px;
+	width:100%;
+	background:radial-gradient( #9FF, #0CF, #0CF, #06F);
+	transition:all 1s;
+}
+
+#pic{
+	height:300px;
+	width:100%;
+	animation:pic 100s;
+	animation-iteration-count:infinite;
+	background-repeat:no-repeat;
+background-size:100% 100%;
+/*  border:5px solid #000;
+box-sizing:border-box;  */
+}
+@keyframes pic{
+	
+	from{background-image:url(login.jpg)}
+	to{background-image:url(fort.jpg);}
+}
+
+#fst{
+	height:200px;
+	width:800px;
+	background-color: #FFF;
+	border:3px solid #FFF;
+	position:absolute;
+	margin:80px;
+	opacity:0.6;
+}
+
+
+#p1{
+	font-size:40px;
+   color: #F0C;	
+}
+
+#back{
+	clear:both;
+	float:left;
+	height:500px;
+	width:50%;
+	background-image:url(poster.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+	float:left;
+}
+
+#back1{
+	 float:right;
+	height:500px;
+	width:50%;
+	background-color:#FFF;
+}
+

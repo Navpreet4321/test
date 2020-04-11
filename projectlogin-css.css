@@ -1,0 +1,32 @@
+*{
+	padding:0px;
+	margin:0px;
+	}
+#main{
+	height:800px;
+	width:100%;
+    background-image:url(poster.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+	margin:0 auto;
+	}
+	
+#login{
+	height:200px;
+	width:300px;
+	background-color:#CCC;
+	position:absolute;
+	margin-top:100px;
+	margin-left:37%;
+
+	}	
+.head1{
+	height:70px;
+	width:300px;
+	background-color:#06F;
+	}
+
+
+
+
+
